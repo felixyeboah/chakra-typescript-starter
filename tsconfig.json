@@ -29,5 +29,14 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "baseUrl": ".",
+  "paths": {
+    "@/components/*": ["./src/components/*"],
+    "@/lib/*": ["./src/lib/*"],
+    "@/helpers/*": ["./src/lib/helpers/*"],
+    "@/utils/*": ["./src/utils/*"],
+    "@/data/*": ["./src/data/*"],
+    "@/public/*": ["./public/*"]
+  }
 }
